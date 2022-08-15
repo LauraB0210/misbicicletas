@@ -26,10 +26,16 @@ button {
   padding: 10px;
   font-weight: 500;
 }
+
+.donate:hover{
+  filter: invert(1);
+  
+}
 .donate{
   color: white;
   background-color: #c05326;
   border: none;
+  
   
 }
 
@@ -38,6 +44,10 @@ button {
   background-color: white;
   border: none;
 
+}
+
+.volunteer:hover{
+  filter: invert(1);
 }
 h1,h2,h3,h4,h5,h6 {
   margin-top: 0;
@@ -78,13 +88,15 @@ p {
 .navigation__list {
   display: flex;
   list-style: none;
+  
 }
 
 .navigation__item {
   padding: 10px;
   margin: 10px;
   border: 10px;
-  
+  cursor: pointer;
+
 }
 
 .navigation__link {
