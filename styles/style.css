@@ -125,7 +125,6 @@ p {
 .hero {
   background-image: url("../images/header-bike.jpg");
   background-color: var(--grey-light);
-  width: 100%;
   height:40%;
   color: white;
   padding-top: 70px;
@@ -154,6 +153,11 @@ p {
   font-weight: 600;
   text-transform: uppercase;
 }
+.mas{
+
+  padding-top: 30px;
+
+}
 
 .heading-underline:before {
   content: "";
@@ -171,6 +175,26 @@ p {
 
 .article {
   margin-bottom: 1rem;
+  border: 2px solid rgb(197, 192, 192);
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  margin: 5px;
+  
+}
+
+.article1 {
+  margin-bottom: 1rem;
+  border: 2px solid rgb(197, 192, 192);
+  flex-direction: column;
+  padding: 0.5em;
+  margin: 6px;
+  
+}
+
+.articled{
+  display: flex;
+  flex-direction: row;
 }
 
 .article__title {
@@ -192,6 +216,7 @@ p {
 .article__thumbnail {
   object-fit: contain;
   width: 5rem;
+  margin-right: 20px;
 }
 
 .article__read-more {
@@ -225,6 +250,7 @@ p {
   display: flex;
   flex-direction: column;
   min-width: 350px;
+  
 }
 
 /* Footer */
