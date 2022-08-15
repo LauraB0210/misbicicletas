@@ -152,12 +152,9 @@ p {
   font-size: 1rem;
   font-weight: 600;
   text-transform: uppercase;
-}
-.mas{
-
   padding-top: 30px;
-
 }
+
 
 .heading-underline:before {
   content: "";
@@ -256,7 +253,7 @@ p {
 /* Footer */
 
 .footer {
-  margin-top: 2rem;
+  margin-top: 90px;
 }
 
 .footer__content {
